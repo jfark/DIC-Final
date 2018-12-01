@@ -1,0 +1,52 @@
+body {
+	padding: 5px;
+}
+
+header {
+	padding: 150px 10px;
+}
+
+.lineup {
+	display: inline-block;
+	float: right;
+	position: relative;
+}
+
+.lineup img {
+	max-width: 16%;
+}
+
+.img-top {
+	
+}
+
+.img-bot {
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+.lineup:hover .img-bot {
+	display: inline;
+}
+
+.lineup:hover:after {
+	content: url(images/raindrops.gif);
+	height: 5000px;
+}
+
+
+.main {
+	display: none;
+}
+
+.reveal {
+	display: none;
+}
+
+
+
+
+
+	
+	
