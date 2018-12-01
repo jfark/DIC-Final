@@ -20,13 +20,13 @@ header {
 	
 }
 
-.img-bot {
+.img-bot .who {
 	position: absolute;
 	z-index: 99;
 	display: none;
 }
 
-.lineup:hover .img-bot {
+.lineup:hover .img-bot .who {
 	display: inline;
 }
 
