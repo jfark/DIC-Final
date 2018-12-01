@@ -3,7 +3,7 @@ body {
 }
 
 header {
-	padding: 75px 10px;
+	padding: 125px 10px;
 }
 
 .lineup {
@@ -99,11 +99,9 @@ header {
 	display: inline;
 }
 
-.one {
-	display: flex;
-}
-.one:hover:after {
-	content: url(images/raindrops.gif);
+.lineup:hover:after {
+	content: url(images/question.gif);
+	
 }
 
 
