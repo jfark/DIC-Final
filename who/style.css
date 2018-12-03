@@ -1,21 +1,32 @@
 body {
 	padding: 5px;
-	background: repeating-linear-gradient(
-  to right,
-  #CBE2CB,
-  #CBE2CB 10px,
-  #fff 10px,
-  #fff 40px
-);
+	background: #C0E0FF;
 }
 
-header {
-	padding: 125px 10px;
+header img {
+	max-width: 100%;
+}
+
+.first img {
+	max-width: 50%;
+	float: right;
+}
+
+.first {
+	position: relative;
+}
+
+.first:hover:after {
+	position: absolute;
+	content: url(../images/raindrops.gif);
+}
+
+footer {
+	clear: right;
 }
 
 .lineup {
 	display: flex;
-	
 }
 
 .lineup img {
@@ -107,8 +118,7 @@ header {
 }
 
 .lineup:hover:after {
-	content: url(images/question.gif);
-	
+	content: url(../images/question.gif);
 }
 
 

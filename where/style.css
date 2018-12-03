@@ -1,21 +1,14 @@
 body {
 	padding: 5px;
-	background: repeating-linear-gradient(
-  to right,
-  #CBE2CB,
-  #CBE2CB 10px,
-  #fff 10px,
-  #fff 40px
-);
+	background: #CBFF52;
 }
 
-header {
-	padding: 125px 10px;
+header img {
+	max-width: 100%;
 }
 
 .lineup {
 	display: flex;
-	
 }
 
 .lineup img {
@@ -107,7 +100,7 @@ header {
 }
 
 .lineup:hover:after {
-	content: url(images/question.gif);
+	content: url(../images/question.gif);
 	
 }
 
