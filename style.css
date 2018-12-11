@@ -1,12 +1,12 @@
 body {
 	padding: 5px;
 	background: repeating-linear-gradient(
-  to right,
-  #CBE2CB,
-  #CBE2CB 10px,
-  #fff 10px,
-  #fff 40px
-);
+	to right,
+	#CBE2CB,
+	#CBE2CB 10px,
+	#fff 10px,
+	#fff 40px);
+	margin: 0px 100px;
 }
 
 header {

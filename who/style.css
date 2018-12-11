@@ -13,7 +13,7 @@ body {
 	background: #C0E0FF;
 	max-width: 100%;
 	height: 100%;
-	margin: 0;
+	margin: 0px;
 	padding: 0px;
 }
 
@@ -31,7 +31,6 @@ header img {
 
 .row1 {
 	display: flex;
-	justify-content: center;
 	max-width: 100%;
 }
 
@@ -48,8 +47,13 @@ header img {
 }
 
 .first {
-	flex: 2;
+	flex: 1;
 	position: relative;
+	padding: 0px 50px 0px 250px;
+}
+
+.first p {
+	font-size: 2.5em;
 }
 
 .first:hover:after {
@@ -66,9 +70,10 @@ header img {
 }
 
 .second {
-	flex: 1;
+	flex: 2;
 	position: relative;
 	margin: 0px;
+	padding: 50px 0px 0px 0px;
 }
 
 .second:hover:after {

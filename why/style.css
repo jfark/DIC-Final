@@ -1,10 +1,52 @@
+html {
+	height: 100%;
+	margin: 0;
+}
+
 body {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 2em;
+	font-weight: bold;
 	padding: 5px;
 	background: #FFFBB7;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.container {
+	
+	border: 0px solid rgba(0, 46, 127, 0.5);
+	box-sizing: border-box;
+	
+	height: 100%;
+	max-width: 100%;
+	overflow: auto;
+	
 }
 
 header img {
-	max-width: 100%;
+	max-width: 45%;
+}
+
+main {
+	display: flex;
+	overflow-x: auto;
+	
+	
+}
+
+main::-webkit-scrollbar {
+    display: none;
+}
+
+main img {
+	max-height: 300px;
+	padding: 0px 20px;
+	
+	
 }
 
 .lineup {
