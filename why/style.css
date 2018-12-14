@@ -7,46 +7,98 @@ body {
 	font-family: 'Roboto Mono', monospace;
 	font-size: 2em;
 	font-weight: bold;
-	padding: 5px;
 	background: #FFFBB7;
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
 	max-height: 100%;
 	max-width: 100%;
+	
 }
 
 .container {
-	
-	border: 0px solid rgba(0, 46, 127, 0.5);
+	border: 0px solid white;
 	box-sizing: border-box;
-	
 	height: 100%;
 	max-width: 100%;
-	overflow: auto;
-	
+	overflow-x: auto;
+	overflow-y: auto;
+	position: relative;
 }
+
+.directions {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 99;
+	max-width: 50%;
+}
+
+.scroll-directions:hover .directions {
+	display: inline;
+}
+
+
 
 header img {
 	max-width: 45%;
+	padding-top: 40px;
+}
+
+header {
+	padding: 0;
+	position: relative;
+}
+
+header:hover:after {
+	content: url(../images/scroll.png);
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 99;
 }
 
 main {
 	display: flex;
 	overflow-x: auto;
-	
-	
+	margin: 20px 0px 40px 80px;
+	align-items: center;
+	border: 30px solid black;
+	border-right: none;
+	background: black;
+	position: relative;
 }
+
 
 main::-webkit-scrollbar {
     display: none;
 }
 
 main img {
-	max-height: 300px;
-	padding: 0px 20px;
-	
-	
+	height: 400px;
+	padding: 10px 20px 10px 0px;	
+}
+
+.one {
+	position: relative;
+	display: inline-block;
+}
+
+.two {
+	display: none;
+	position: absolute;
+	bottom: 50%;
+	color: yellow;
+	font-size: 1em;
+	transform: skewY(-40deg);
+}
+
+.one:hover .two {
+	display: inline;
+}
+
+footer {
+	margin: 100px;
 }
 
 .lineup {

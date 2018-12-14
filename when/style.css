@@ -1,10 +1,51 @@
 body {
-	padding: 5px;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1.2em;
+	font-weight: bold;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	max-height: 100%;
+	max-width: 100%;
 	background: #00CEFF;
 }
 
 header img {
-	max-width: 100%;
+	max-width: 45%;
+	padding-top: 40px;
+}
+
+main img {
+	max-width: 60%;
+}
+
+main {
+	padding: 0px 40px;
+	position: relative;
+}
+
+.poem:hover:after {
+	content: url(../images/meltingclockpoem.gif);
+	position: absolute;
+	top: -300px;
+	left: -120px;
+	z-index: -1;
+}
+
+.flex {
+	display: flex;
+}
+
+.other img {
+	width: 400px;
+}
+
+.other3 img {
+	width: 200px;
+}
+
+footer {
+	margin: 100px;
 }
 
 .lineup {

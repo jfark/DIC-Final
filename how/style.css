@@ -1,10 +1,122 @@
 body {
-	padding: 5px;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 3em;
+	font-weight: bold;
+	color: #B0155B;
+	padding: 40px 5px;
+	max-width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
 	background: #FFAC0B;
 }
 
 header img {
+	max-width: 45%;
+	padding-top: 40px;
+}
+
+main {
+	display: flex;
+	padding: 0px 70px;
+}
+
+main div {
+	flex: 1;
+}
+
+main img {
 	max-width: 100%;
+}
+
+.door-one {
+	position: relative;
+	display: inline-block;
+}
+
+.text-one {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	border: 10px solid #01ECED;
+	padding: 5px;
+	background: rgba(19,31,71,0.5);
+	color: #FF5821;
+}
+
+.door-one:hover .text-one {
+	display: inline;
+}
+
+.door-one:hover:after {
+	content: url(../images/dorito.gif);
+	position: absolute;
+	top: 70px;
+	left: -150px;
+	z-index: 200;
+}
+
+.door-two {
+	position: relative;
+	display: inline-block;
+}
+
+.text-two {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	border: 10px solid #01ECED;
+	padding: 5px;
+	color: #CED51F;
+	background: rgba(243,0,243,0.5);
+}
+
+.door-two:hover .text-two {
+	display: inline;
+}
+
+.door-two:hover:after {
+	content: url(../images/dancing.gif);
+	position: absolute;
+	top: 100px;
+	left: -75px;
+	z-index: 200;
+}
+
+.door-three {
+	position: relative;
+	display: inline-block;
+}
+
+.text-three {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 99;
+	border: 10px solid #01ECED;
+	padding: 5px;
+	background: rgba(115,206,7,0.5);
+}
+
+.door-three:hover .text-three {
+	display: inline;
+}
+
+.door-three:hover:after {
+	content: url(../images/curling.gif);
+	position: absolute;
+	top: 150px;
+	right: 0;
+	z-index: 200;
+}
+
+footer {
+	margin: 100px;
 }
 
 .lineup {

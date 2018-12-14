@@ -15,6 +15,9 @@ body {
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
+	background-image: url(../images/mypracticetext.png);
+	background-size: contain;
+	background-repeat: repeat-y;
 }
 
 .container {
@@ -26,6 +29,7 @@ body {
 
 header img {
 	max-width: 45%;
+	padding-top: 40px;
 
 }
 
@@ -37,7 +41,8 @@ header img {
 .row2 {
 	display: flex;
 	padding-bottom: 200px;
-	margin: 0px 20px;
+	margin: 0px 0px;
+	font-size: .8em;
 }
 
 .first img {
@@ -78,9 +83,9 @@ header img {
 
 .second:hover:after {
 	position: absolute;
-	top: 0px;
+	bottom: 0px;
 	right: 0;
-	content: url(../images/person.png);
+	content: url(../images/wolf.gif);
 	opacity: 1;
 	
 }
@@ -89,14 +94,24 @@ header img {
 	margin: 0px 15px;
 }
 
+.third {
+	padding: 0px 20px 0px 100px;
+}
+
+.fourth {
+	padding: 30px 20px 0px 20px;
+}
+
 .fifth {
 	position: relative;
+	margin: 100px 100px 0px 0px;
 }
 
 .fifth:hover:after {
 	position: absolute;
-	content: url(../images/deadlines.png);
-	right: 0;
+	content: url(../images/knot.gif);
+	right: 50%;
+	top: 0;
 }
 
 footer {
