@@ -39,11 +39,12 @@ main img {
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: 99;
+	z-index: 300;
 	border: 10px solid #01ECED;
-	padding: 5px;
+	padding: 5px 200px 5px 200px;
 	background: rgba(19,31,71,0.5);
 	color: #FF5821;
+	transform: rotate(30deg) skewX(-30deg) scaleY(2) scaleX(1.5);
 }
 
 .door-one:hover .text-one {
@@ -53,7 +54,7 @@ main img {
 .door-one:hover:after {
 	content: url(../images/dorito.gif);
 	position: absolute;
-	top: 70px;
+	top: 100px;
 	left: -150px;
 	z-index: 200;
 }
@@ -68,11 +69,12 @@ main img {
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: 99;
+	z-index: 300;
 	border: 10px solid #01ECED;
-	padding: 5px;
+	padding: 150px 40px;
 	color: #CED51F;
 	background: rgba(243,0,243,0.5);
+	transform: skewX(-15deg) scaleX(2) scaleY(3);
 }
 
 .door-two:hover .text-two {
@@ -85,6 +87,7 @@ main img {
 	top: 100px;
 	left: -75px;
 	z-index: 200;
+	transform: skewY(40deg) skewX(10deg) scaleX(1.5) scaleY(2.5);
 }
 
 .door-three {
@@ -99,8 +102,9 @@ main img {
 	right: 0;
 	z-index: 99;
 	border: 10px solid #01ECED;
-	padding: 5px;
+	padding: 50px 300px;
 	background: rgba(115,206,7,0.5);
+	transform: skewY(-10deg) scaleX(1.5) scaleY(2);
 }
 
 .door-three:hover .text-three {
@@ -113,6 +117,7 @@ main img {
 	top: 150px;
 	right: 0;
 	z-index: 200;
+	transform: skewY(10deg) skewX(-20deg);
 }
 
 footer {
